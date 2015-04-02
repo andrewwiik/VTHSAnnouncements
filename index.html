@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+</style>
+      <link type="text/css" rel="stylesheet" href="/files/theme/materialize.min.css"  media="screen,projection"/>
+<style>
+.picker__day.picker__day--today.picker__day--selected {
+    color: #FFF !important;
+    }
+.picker__nav--prev:hover, .picker__nav--next:hover {
+   background-color: #E3F2FD !important;
+ }
+.picker__day.picker__day--today {
+    color: #2196F3 !important;
+    }
+button.picker__today:focus, button.picker__clear:focus, button.picker__close:focus {
+  background-color: #E3F2FD !important;
+}
+.picker__day--selected, .picker__day--selected:hover, .picker--focused .picker__day--selected {
+  background: none repeat scroll 0% 0% #0089EC !important;
+}
+.picker__close, .picker__today {
+  color: #2196F3 !important;
+}
+.picker__date-display {
+  background-color: #2196F3 !important;
+}
+.picker__weekday-display {
+  background-color: #1E88E5 !important;
+}
+footer.page-footer {
+  background-color:#1e88e5 !important;
+}
+ html {font-size: font-size: 15px;}
+.btn {
+  background-color:#2196f3;
+}
+.btn:hover {
+  background-color:#2196f3;
+}
+.input-field textarea.materialize-textarea:focus {
+
+     border-bottom: 1px solid #2196f3;
+     box-shadow: 0 1px 0 0 #2196f3;
+}
+.input-field textarea.materialize-textarea:focus + label {
+  color: #2196f3;
+}
+
+   .input-field input[type=text]:focus + label {
+     color: #2196f3;
+   }
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #2196f3;
+     box-shadow: 0 1px 0 0 #2196f3;
+   }
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   .input-field .prefix.active {
+     color: #2196f3;
+   }
+   .input-field input[type=email]:focus + label {
+     color: #2196f3;
+   }
+   .input-field input[type=email]:focus {
+     border-bottom: 1px solid #2196f3;
+     box-shadow: 0 1px 0 0 #2196f3;
+   }
+   .input-field input[type=email].valid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   .input-field input[type=email].invalid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+.truncate {
+  white-space:pre-wrap;
+}
+.name {
+  text-transform: capitalize;
+}
+[type="checkbox"]:checked + label:before {
+  border-color: transparent #2196f3 #2196f3 transparent;
+}
+</style>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+</head>
+<body>
+<header>
+      <nav>
+       <div class="nav-wrapper blue">
+      <a href="#!" style="white-space:nowrap;" class="brand-logo right truncate">Request a Announcement</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+      <ul class="left hide-on-med-and-down">
+         <li><a href="index.html"><i class="mdi-action-home"></i></a></li>
+         <li><a href="/blog">Blog</a></li>
+         <li><a href="/plagiarism">Research and Citation</a></li>
+         <li><a href="/requestaannouncement">Announcements</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+         <li><a href="index.html">Home</a></li>
+         <li><a href="/blog">Blog</a></li>
+         <li><a href="/plagiarism">Research and Citation</a></li>
+      </ul>
+    </div>
+   </nav>
+   </header>
+  <main>
+  <div class="container">
+  <div id="submitaannouncement" class="section">
+    <h4 class="center-align">Request an Announcement to be Made</h4>
+    <br>
+<form class="col s12" action="https://docs.google.com/a/vtsd.com/forms/d/1Vp2WFriSki9rNQoBMaV7CqUZA9f1xmUhgMvlb_bAYBM/formResponse" formResponsemethod="POST" id="ss-form" class="col s12" target="_self" onsubmit="">
+<div class="row">
+      <div class="input-field col s6">
+      <i class="mdi-action-account-circle prefix"></i>
+      <input name="entry.568163944" value="" class="name" id="entry_568163944" dir="auto" aria-label="Your Name" aria-required="true" required="" title="" type="text">
+      <label for="entry_568163944">Your Name</label>
+      </div>
+      <div class="input-field col s6">
+      <i class="mdi-communication-email prefix"></i>
+      <input name="entry.777165099" value="" class="ss-q-short required" id="entry_777165099" dir="auto" aria-label="Your Email" aria-required="true" required="" title="" type="email">
+      <label for="entry_777165099">Your Email</label>
+      </div>
+      </div>
+      <div class="row">
+      <div class="input-field col s6">
+      <i class="mdi-action-event prefix datepicker"></i>
+      <input name="entry.667848533" value="" required="" class="datepicker" id="entry_667848533" dir="auto" aria-label="Announcement Start Date  " title="" type="text">
+      <label for="entry_667848533">Announcement Start</label>
+      </div>
+      <div class="input-field col s6">
+       <i class="mdi-action-event prefix"></i>
+  <input name="entry.1307327047" value="" class="datepicker" id="entry_1307327047" dir="auto" aria-label="Announcement End Date" title="" type="text">
+  <label for="entry_1307327047">Announcement End</label>
+      </div>
+      </div>
+      <div class="row">
+      <div  class="input-field col s12">
+      <i class="mdi-action-announcement prefix"></i>
+        <textarea id="entry_1304314788" dir="auto" name="entry.1304314788" class="materialize-textarea" id="input-562030564672289050" required name="_u562030564672289050"aria-required="true" required=""></textarea>
+        <label for="entry_1304314788">Your Announcement</label>
+  </div>
+  </div>
+  <div class="row">
+  <div class="input-field col s6">
+    <input type="checkbox" name="emailReceipt" id="emailReceipt" />
+    <label for="emailReceipt">Send me a copy of my announcement.</label>
+      </div>
+    <input type="hidden" name="draftResponse" value="[,,&quot;-3983069522478001940&quot;]
+">
+<input type="hidden" name="pageHistory" value="0">
+<div class="input-field col s6 right-align">
+  <button id="topSubmitButton" type='submit' class="btn waves-effect waves-light" class="jfk-button jfk-button-action ">Submit<i class="mdi-content-send right"></i></button>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</form>
+</div>
+  </main>
+  <footer class="page-footer">
+          <div class="container" style="width:100%;">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">VTHS Media Center</h5>
+                <p class="grey-text text-lighten-4">This website was designed and programmed by Andrew Wiik and David Iarkowski for the Vernon Township Highschool Media Center.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Media Center Staff</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="mailto:sdenn@vtsd.com">Mr. Stephen Denn, Media Specialist</a></li>
+                  <li><a class="grey-text text-lighten-3" href="mailto:jvitone@vtsd.com">Mrs. Jane Vitone, Media Specialist Assistant,</a></li>
+                  <li><a class="grey-text text-lighten-3" href="mailto:sdawes@vtsd.com">Mrs. Sarah Dawes, Media Specialist Assistant</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container" style="width:100%;">
+            © 2015 Vernon Township Highschool Media Center 
+            <a class="grey-text text-lighten-4 right" href="#!">This website has been visited <!-- Start of StatCounter Code for Weebly -->
+<script type="text/javascript">
+var sc_project=10310461; 
+var sc_invisible=0; 
+var sc_security="69636ab4"; 
+var sc_text=2; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="weebly reliable
+statistics" href="http://statcounter.com/weebly/"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/10310461/0/69636ab4/0/"
+alt="weebly reliable statistics"></a></div></noscript>
+<!-- End of StatCounter Code for Weebly -->times.</a>
+            </div>
+          </div>
+          <div style='display:none'>{title}</div>
+<div style='display:none'>{menu}</div>
+<div style='display:none'>{footer}</div>
+        </footer>
+   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+   <script type="text/javascript" src="/files/theme/materialize.min.js"></script>
+   <script>
+$('.datepicker').pickadate({
+  });
+        
+       </script>
+       </body>
+       </html>
